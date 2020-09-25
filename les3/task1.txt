@@ -1,0 +1,11 @@
+1. По структуре в основном все понятно. По индексам пока не успел изучить литературу - поэтому не совсем понимаю что это и для чего будем использовать. Особенно в этом коде:
+drop table if exists communities;
+create table communities(
+	id serial primary key,
+	name varchar(150),
+	index communities_name_idx (name)
+);.
+
+По усовершенствованию пока идей нет.
+
+Задания 2 и 3 - в соседнем файле.
